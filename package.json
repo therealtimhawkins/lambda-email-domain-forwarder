@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/therealtimhawkins/lambda-boilerplate/issues"
   },
-  "homepage": "https://github.com/therealtimhawkins/lambda-boilerplate#readme"
+  "homepage": "https://github.com/therealtimhawkins/lambda-boilerplate#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "lambda-tester": "^3.5.0"
+  }
 }
