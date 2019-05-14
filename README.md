@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Nodejs on your local machine
 * An Amazon Web Services account
+* AWS CLI installed
 
 ### Installing
 
