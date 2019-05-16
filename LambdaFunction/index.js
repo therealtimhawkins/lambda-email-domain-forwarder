@@ -1,3 +1,5 @@
 exports.handler = function(event, context, callback) {
-  callback(null, event.message);
+  const name = event.name || 'World';
+  const response = {message: `Hello ${name}!`};
+  callback(null, response);
 };
