@@ -10,4 +10,13 @@ describe('handler', () => {
       })
       .verify(done);
   });
+
+  it('should return message if name is given', (done) => {
+    LambdaTester(handler)
+      .event({name: 'Tim Hawkins'})
+      .expectResult(result => {
+        expect(result.message).toEqual('Hello Tim Hawkins!');
+      })
+      .verify(done);
+  });
 });
