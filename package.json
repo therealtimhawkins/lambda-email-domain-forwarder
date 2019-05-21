@@ -4,7 +4,8 @@
   "description": "Boilerplate for AWS Lambda Functions",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy": "./build.sh EmailDomainTransformerFunction"
   },
   "repository": {
     "type": "git",
