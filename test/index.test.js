@@ -1,5 +1,5 @@
 const LambdaTester = require('lambda-tester');
-const handler = require('../LambdaFunction/index').handler;
+const handler = require('../EmailDomainTransformerFunction/index').handler;
 
 describe('handler', () => {
   it('should return message if no name is given', (done) => {
