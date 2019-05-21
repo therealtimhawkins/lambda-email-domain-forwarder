@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "deploy": "./build.sh EmailDomainTransformerFunction"
+    "deploy": "./build.sh EmailDomainForwarderFunction"
   },
   "repository": {
     "type": "git",
